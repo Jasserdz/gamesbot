@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "$";
-client.on('fast', message => {
+client.on('message', message => {
     if (message.content == "$سرعة") {
         var x = ["GoblinKing",
 "DeathGames",
@@ -105,7 +105,7 @@ client.on('fast', message => {
     }
 })
 
-client.on('logz', puz => {
+client.on('message', puz => {
     if (puz.content == "$لغز") {
         var x = ["ما هي حاسة الشم عند الثعبان ؟",
 "ما هو الشي الذي يكسو الناس و هو عار بدون ملابس ؟",
@@ -156,7 +156,7 @@ client.on('logz', puz => {
     }
 })
 
-client.on('fkk', fkk => {
+client.on('message', fkk => {
     if (fkk.content == "$فكك") {
         var x = ["المتاح للجميع لا يتاح لي",
 "خعاخع",
