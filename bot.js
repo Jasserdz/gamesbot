@@ -3,7 +3,7 @@ const client = new Discord.Client();
 var prefix = "#";
 client.on('message', message => {
     if (message.content == "#سرعه") {
-        var x = ["DreamKing",
+        var x = ["GoblinKing",
 "DeathGames",
 "زيرو كنج",
 "أرض الأحلام",
@@ -34,14 +34,14 @@ client.on('message', message => {
 "FaceBooK",
 "YouTube",
 "Infinity",
-"احبك دريم",
+"احبك جاسر",
 "Don't Let Me Down",
 "Space",
 "Instgram",
 "Google",
 "Viber",
 ];
-        var x2 = ['DreamKing',
+        var x2 = ['GoblinKing',
         "DeathGames",
         "زيرو كنج",
         "أرض الأحلام",
@@ -72,7 +72,7 @@ client.on('message', message => {
         "FaceBooK",
         "YouTube",
         "Infinity",
-        "احبك دريم",
+        "احبك جاسر",
         "Don't Let Me Down",
 		"Space",
 		"Instgram",
@@ -210,9 +210,9 @@ client.on('message', fkk => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Cyhper Script By : DREAM`);
+      console.log(`Cyhper Script By : Goblin`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : DREAM ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : Goblin ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
 client.user.setGame(`Light Games`,"http://twitch.tv/Light")
