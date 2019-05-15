@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "#";
-client.on('message', message => {
-    if (message.content == "#سرعه") {
+var prefix = "$";
+client.on('fast', message => {
+    if (message.content == "$سرعة") {
         var x = ["GoblinKing",
 "DeathGames",
 "زيرو كنج",
@@ -105,8 +105,8 @@ client.on('message', message => {
     }
 })
 
-client.on('message', puz => {
-    if (puz.content == "#لغز") {
+client.on('logz', puz => {
+    if (puz.content == "$لغز") {
         var x = ["ما هي حاسة الشم عند الثعبان ؟",
 "ما هو الشي الذي يكسو الناس و هو عار بدون ملابس ؟",
 "ما هو الشي الذي لا يجري و لا يمشي ؟",
@@ -156,8 +156,8 @@ client.on('message', puz => {
     }
 })
 
-client.on('message', fkk => {
-    if (fkk.content == "#فكك") {
+client.on('fkk', fkk => {
+    if (fkk.content == "$فكك") {
         var x = ["المتاح للجميع لا يتاح لي",
 "خعاخع",
 "فيلا",
@@ -215,7 +215,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Goblin ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Light Games`,"http://twitch.tv/Light")
+client.user.setGame(`Cold Games`,"http://twitch.tv/Light")
 client.user.setStatus("dnd")
 });
 
